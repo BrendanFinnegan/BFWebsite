@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="script.js"></script>
+        <script type="text/javascript" src="jquery/dist/jquery.js"></script>
+        <script>
+        $(document).ready(() => {
+        $("#buttonOne").click(function(){
+            $("p").hide();
+        })
+    });
+    $(document).ready(() => {
+        $("#buttonTwo").click(function(){
+            $("p").show();
+        })
+    })
+        </script>
+        <title>BFWeb</title>
+    </head>
+<body>
+    <header>
+        <div>
+            <a id="homeLink" href="./index.html">Brendan Finnegan</a>
+            <button class='btn-default' id='headerNav' onclick="location.href='./contact.html'">Contact</button>
+            <button class='btn-default' id='headerNav' onclick="location.href='./about.html'">About</button>
+            <button class='btn-default' id='headerNav' onclick="location.href='./projects.html'">Projects</button>
+        </div>
+    </header>
+    <div class="container">
+    <div id="intro" class="bodyText">
+        <h2>About</h2>
+        <p>I was born and raised in Cleveland, Ohio, and when I'm not working, a good deal of time is spent
+             following their sport teams! Outside of following spots, I play guitar, soccer, and video games.
+              I live with my fiance in New York City, and have been here for five years. 
+              Prior to NYC, I've lived in the following places (in order of recency):</p>
+              <ol>
+                  <li>Jaipur, India</li>
+                  <li>Jacksonville, Florida</li>
+                  <li>London, England</li>
+                  <li>Pecs, Hungary</li>
+                  <li>Within Ohio: 
+                      <ul>
+                      <li>Athens</li>
+                      <li>Hudson</li>
+                      <li>Mayfield Heights</li>
+                      <li>Chagrin Falls</li>
+                      <li>Streetsboro</li>
+
+                  </li>
+                  
+              </ol>
+    </div>
+</div>
+<hr>
+<div class="container">
+    <P>My sport team passion rankings are as follows:</P>
+</div>
+<div class="container">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Team</th>
+            <th scope="col">Sport</th>
+            <th scope="col">Passion Rank</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Cavs</td>
+            <td>Basketball</td>
+            <td>1A</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Browns</td>
+            <td>American Football</td>
+            <td>1B</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Cleveland Indians (to be renamed soon)</td>
+            <td>Baseball</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <hr>
+      <div class="container">
+        <P>The recent games on my plate are as follows:</P>
+    </div>
+<div class="container">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Game</th>
+            <th scope="col">Type</th>
+            <th scope="col">Completed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Pillars of Eternity 2</td>
+            <td>CRPG</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Bioshock</td>
+            <td>Shooter/Horror</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Baldurs Gate 3 EA</td>
+            <td>CRPG</td>
+            <td>Yes</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+    <footer class="footer bg-light text-center text-lg-start fixed-bottom">
+        <h3>Some Nonsense</h3>
+        <button class="styled" id="pigs" onclick="location.href='https://joshcollinsworth.com/projects/pass-the-pigs-scorekeeper-app/'">Pigs</button>
+        <button class="styled2" id="barvis" onclick="location.href='http:/brendanfinnegan.github.io/BrendanFsite/'">Barvis</button>
+    </footer>
+    
+</body>
+</html>
